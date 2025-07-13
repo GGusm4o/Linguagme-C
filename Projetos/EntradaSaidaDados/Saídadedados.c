@@ -1,4 +1,6 @@
 #include <stdio.h>
+// Saída de dados com printf
+
 int main() {
 
     int idade = 17;
@@ -6,8 +8,10 @@ int main() {
     char opcao = 'G';
     char nome[20] = "Guilherme";
  
-    printf("Idade: %d é %d\n", nome, idade);
-    printf("A altura é: %e\n", altura);
+    // printf("Idade: %d é %d\n", nome, idade);
+    printf("A idade é: %d\n", idade);
+    printf("O nome é: %s\n", nome);
+    printf("A altura é: %.2f\n", altura);
     printf("A opção é : %c\n", opcao);
  
     return 0;
