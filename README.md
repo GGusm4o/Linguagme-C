@@ -20,7 +20,7 @@ Para executar os projetos você precisa ter instalado:
 - compilador/interpretador:
  [MSYS2](https://www.msys2.org/)
 - IDE recomendada:
- VS Code
+ [VS Code](https://code.visualstudio.com/download)
 
 📌 Objetivos de Aprendizado
 - Desenvolver lógica de programação.
