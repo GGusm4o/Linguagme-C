@@ -18,7 +18,7 @@ O objetivo é praticar conceitos como:
 Para executar os projetos você precisa ter instalado:
 
 - compilador/interpretador:
- GCC
+ [MSYS2](https://www.msys2.org/)
 - IDE recomendada:
  VS Code
 
