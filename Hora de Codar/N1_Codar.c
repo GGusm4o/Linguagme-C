@@ -1,5 +1,7 @@
 #include <stdio.h>
 int main() {
+    
+//Registro de Alunos
     int idade, matricula;
     float altura;
     char nome[50];
