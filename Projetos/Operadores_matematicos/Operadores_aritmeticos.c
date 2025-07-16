@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     /*
-    Operações Aritméticas Básicas
+    Operações Aritméticas Básicas:
     Soma (+)
     Subtração (-)
     Multiplicação (*)
