@@ -11,11 +11,11 @@ int main() {
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     //Carta 1
     int populacao1, pontosTuristicos1;
-    float area1, pib1;
+    float area1, pib1, densidadePopulacional1, pibPerCapita1;
     char estado1[100], codigo1[4];
     //Carta 2
     int populacao2, pontosTuristicos2;
-    float area2, pib2;
+    float area2, pib2, densidadePopulacional2, pibPerCapita2;
     char estado2[100], codigo2[4];
 
     // Cadastro das Cartas:
@@ -23,7 +23,6 @@ int main() {
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
 
     //carta 1
-    //estado
     printf("Cadastro da Carta 1:\n");
     printf("Digite o estado: ");
     scanf("%s", estado1);
@@ -45,6 +44,10 @@ int main() {
     //pontos turísticos
     printf("Digite o número de pontos turísticos da cidade: ");
     scanf("%d", &pontosTuristicos1);
+    //Calculo da Densidade Populacional
+    densidadePopulacional1 = populacao1 / area1;
+    //Calculo o PIB per Capita
+    pibPerCapita1 = pib1 / populacao1;
 
     //carta 2
     //estado
@@ -69,6 +72,10 @@ int main() {
     //pontos turísticos
     printf("Digite o número de pontos turísticos da cidade: ");
     scanf("%d", &pontosTuristicos2);
+    //Calculo da Densidade Populacional
+    densidadePopulacional2 = populacao2 / area2;
+    //Calculo o PIB per Capita
+    pibPerCapita1 = pib1 / populacao1;
 
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
@@ -82,6 +89,9 @@ int main() {
     printf("Área: %.2f\n", area1);
     printf("PIB: %.2f\n", pib1);
     printf("Pontos Turísticos: %d\n", pontosTuristicos1);
+    printf("Densidade Populacional: %.2f\n", densidadePopulacional1);
+    printf("PIB per Capita: %.2f\n", pibPerCapita1);
+    
     //carta 2
     printf("\nDados da Carta 2:\n");
     printf("Código: %s\n", codigo2);
@@ -90,6 +100,8 @@ int main() {
     printf("Área: %.2f\n", area2);
     printf("PIB: %.2f\n", pib2);
     printf("Pontos Turísticos: %d\n", pontosTuristicos2);
+    printf("Densidade Populacional: %.2f\n", densidadePopulacional2);
+    printf("PIB per Capita: %.2f\n", pibPerCapita2);
 
 /*
 printf("%formatol formato2 Sformato3", variavell, variavel2, variavel3)

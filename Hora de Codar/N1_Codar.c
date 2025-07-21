@@ -1,6 +1,7 @@
 #include <stdio.h>
-int main() {
-    
+    int main() {
+        
+//Hora de Codar
 //Registro de Alunos
     int idade, matricula;
     float altura;
