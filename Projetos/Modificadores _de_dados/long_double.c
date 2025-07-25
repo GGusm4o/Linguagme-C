@@ -5,7 +5,7 @@ int main() {
     long double veryPreciseNumber = 3.14159265358979323846;
  
     printf("Número preciso (double): %.15f\n", preciseNumber);
-    printf("Número muito preciso (long double): %.21Lf\n", veryPreciseNumber);
+    printf("Número muito preciso (long double): %.21lf\n", veryPreciseNumber);
  
     return 0;
 }
