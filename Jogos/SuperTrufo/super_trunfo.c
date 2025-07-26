@@ -22,7 +22,7 @@
         float densidade2; 
         float pibPerCapita2;
         float superpoder2;
-
+        
             // --- Leitura dos dados da Carta 1 ---
             printf("--- Cadastro da Carta 1 ---\n");
             printf("Digite o estado: ");
