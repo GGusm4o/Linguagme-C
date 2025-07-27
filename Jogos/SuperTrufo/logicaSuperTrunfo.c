@@ -66,9 +66,6 @@
                 //Comparação das cartas
                 printf("\n--- Comparação de Cartas ---\n");
                 if (populacao1 > populacao2){
-
-
-                    
                     printf("Carta 1 venceu\n");
                 } else {
                     printf("Carta 2 venceu\n");
