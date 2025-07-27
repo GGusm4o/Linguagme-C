@@ -119,9 +119,9 @@
             printf("Pontos Turísticos: Carta %d venceu (%d)\n", 2 - (pontosTuristicos1 > pontosTuristicos2), (pontosTuristicos1 > pontosTuristicos2));
             // MENOR densidade populacional vence (regra especial)
             printf("Densidade Populacional: Carta %d venceu (%d)\n", 2 - (densidade1 < densidade2), (densidade1 < densidade2));
-            // Maior PIB per capita vence [cite: 1210]
+            // Maior PIB per capita vence
             printf("PIB per Capita: Carta %d venceu (%d)\n", 2 - (pibPerCapita1 > pibPerCapita2), (pibPerCapita1 > pibPerCapita2));
-            // Maior Super Poder vence [cite: 1210]
+            // Maior Super Poder vence
             printf("Super Poder: Carta %d venceu (%d)\n", 2 - (superpoder1 > superpoder2), (superpoder1 > superpoder2));
 
     return 0;
