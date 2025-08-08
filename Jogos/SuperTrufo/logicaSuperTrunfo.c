@@ -72,9 +72,10 @@
             pibPerCapita2 = (pib2 * 1000000000) / populacao2; // PIB em reais por pessoa
             printf("Densidade Populacional: %.2f\n", densidadePopulacional2);
             printf("PIB per Capita: %.2f\n", pibPerCapita2);
-                // Comparação de Cartas:
-                // Desenvolva a lógica de comparação entre duas cartas.
-                //Comparação das cartas
+
+            // Comparação de Cartas:
+            // Desenvolva a lógica de comparação entre duas cartas.
+            //Comparação das cartas
 
             printf("--- Menu de Comparação ---\n");
             printf("Escolha o primeiro atributo de comparação:\n");
@@ -160,7 +161,8 @@
                         printf("Opção inválida!\n");
                     }
             }
-            
+            // Exibição dos Resultados:
+            // Após realizar as comparações, exiba os resultados para o usuário.
             if (resultado1 && resultado2)
             {
                 printf("Parabéns, você ganhou!\n");
