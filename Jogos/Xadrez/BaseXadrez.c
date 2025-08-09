@@ -3,31 +3,45 @@
         int bispo; //casas na diagonal superior direita
         int torre; //casas para a direita
         int rainha; //casas para a esquerda
+        int cavalo; //duas para baixo, uma para a esquerda
         int i;
 
         //MOVIMENTAÇÃO DAS PEÇAS
         //Torre
         printf("Movimentação da Torre:\n");
-        for(i = 1; i <= 5; i++)
+        for(torre = 1; torre<= 5; torre++)
         {
             printf("Direita\n");
         }
         //Bispo
         printf("Movimentação do Bispo:\n");
-        i = 1;
-        while (i <= 5)
+        bispo = 1;
+        while (bispo <= 5)
         {
             printf("Cima, Direita\n");
-            i++;
+            bispo++;
         }
         //Rainha
         printf("Movimentação da Rainha:\n");
-        i = 1;
+        rainha = 1;
         do
         {
             printf("Esquerda\n");
-            i++;
-        } while (i <= 8);
+            rainha++;
+        } while (rainha <= 8);
+        //Cavalo
+        printf("Movimentação do Cavalo:\n");
+        cavalo = 1;
+        // Loop externo (for) - duas casas para baixo
+        while (cavalo --)
+        {
+            for (i = 0; i < 2; i++)
+            {
+                printf("Baixo\n");
+            
+            }
+            printf("Esquerda\n");
+        }
         
     return 0;
     }
