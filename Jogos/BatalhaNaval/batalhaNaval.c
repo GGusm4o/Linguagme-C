@@ -16,8 +16,6 @@ int main() {
             tabuleiro[i][j] = 0;
         }
     }
-    // Posiciona um navio na diagonal principal (tamanho 3)
-    // Linha 3 (índice 2): colunas C, D, E
     // Posiciona um navio na diagonal principal e secundária (tamanho 3)
     //Diagonal principal
     for (int i = 2; i <= 4; i++) {
